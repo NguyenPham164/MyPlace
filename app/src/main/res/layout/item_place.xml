@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="MissingConstraints">
+
+    <ImageView
+        android:id="@+id/imgItemPlace_Picture"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/add_image"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtItemPlace_PlaceName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:text="PlaceName"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toEndOf="@+id/imgItemPlace_Picture"
+        app:layout_constraintTop_toTopOf="@+id/imgItemPlace_Picture" />
+
+    <TextView
+        android:id="@+id/txtItemPlace_PlaceAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:text="PlaceAddress"
+        android:textSize="12dp"
+        android:textStyle="italic"
+        app:layout_constraintStart_toEndOf="@+id/imgItemPlace_Picture"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemPlace_PlaceName" />
+
+    <TextView
+        android:id="@+id/txtItemPlace_PlaceDecription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="2dp"
+        android:text="PlaceDecription"
+        android:textSize="12dp"
+        app:layout_constraintStart_toEndOf="@+id/imgItemPlace_Picture"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemPlace_PlaceAddress" />
+
+
+</android.support.constraint.ConstraintLayout>

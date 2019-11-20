@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">MyPlace</string>
+
+    <string name="text_no_data">No data available </string>
+    <string name="text_retrieving_data">Retrieving data..</string>
+    <string name="text_show_all_places_all_map">Show all places on map</string>
+    <string name="text_place_name">Place Name</string>
+    <string name="text_place_address">Place Address</string>
+    <string name="text_place_description">Place Description</string>
+    <string name="hint_fill_in_place_name">Fill in place name</string>
+    <string name="hint_fill_in_place_address">Fill in place address</string>
+    <string name="hint_fill_in_place_description">Fill in place description</string>
+    <string name="text_save">Save</string>
+    <string name="warning_do_you_want_to_delete">Do you want to delete</string>
+    <string name="text_deleting">Deleting..</string>
+    <string name="text_saving">Saving &#8230;</string>
+    <string name="text_warning">Warning</string>
+    <string name="text_positive">Yes</string>
+    <string name="text_negative">No</string>
+</resources>
